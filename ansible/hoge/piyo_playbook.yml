@@ -1,0 +1,5 @@
+- hosts: fuga_fuga
+  become: yes
+  become_method: su
+  tasks:
+  - name: piyo
